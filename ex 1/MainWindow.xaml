@@ -1,0 +1,21 @@
+﻿<Window x:Class="ex_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ex_1"
+        mc:Ignorable="d"
+        Title="My Exam App" Height="400" Width="400">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <RadioButton x:Name="question1RadioButton" HorizontalAlignment="Left" Margin="62,146,0,0" VerticalAlignment="Top" Height="26" Width="262" FontSize="24"/>
+        <RadioButton x:Name="question2RadioButton" HorizontalAlignment="Left" Margin="62,0,0,0" VerticalAlignment="Center" Height="26" Width="262" FontSize="24"/>
+        <RadioButton x:Name="question3RadioButton" HorizontalAlignment="Left" Margin="62,214,0,0" VerticalAlignment="Top" Height="26" Width="262" FontSize="24"/>
+        <RadioButton x:Name="question4RadioButton" HorizontalAlignment="Left" Margin="62,249,0,0" VerticalAlignment="Top" Height="26" Width="262" FontSize="24"/>
+        <Button x:Name="submitButton" Content="Submit" HorizontalAlignment="Left" Margin="48,314,0,0" VerticalAlignment="Top" Height="34" Width="100" FontSize="24" Click="submitButton_Click"/>
+        <Label x:Name="questionLabel" HorizontalAlignment="Left" Margin="62,37,0,0" VerticalAlignment="Top" Height="50" Width="262"/>
+
+    </Grid>
+</Window>
